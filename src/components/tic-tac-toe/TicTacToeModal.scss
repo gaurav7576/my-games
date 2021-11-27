@@ -1,0 +1,31 @@
+.modal-content {
+  .content {
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    &.body {
+      line-height: 2;
+    }
+  }
+  .symbol-options {
+    font-family: "Yesteryear", cursive;
+    width: 200px;
+    margin-top: 10px;
+    .symbol-option {
+      &:first-child {
+        margin-right: 10px;
+      }
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+  .warning-hr {
+    margin: 0;
+  }
+}
+
+.fade.in {
+  opacity: 1;
+  padding-top: 50px;
+}
