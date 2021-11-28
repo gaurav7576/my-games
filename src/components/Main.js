@@ -12,8 +12,8 @@ function Main() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/about" component={Hangman} />
-        <Route path="/courses" component={TicTacToe} />
+        <Route path="/hangman" component={Hangman} />
+        <Route path="/tic-tac-toe" component={TicTacToe} />
         <Route component={PageNotFound} />
       </Switch>
     </div>
